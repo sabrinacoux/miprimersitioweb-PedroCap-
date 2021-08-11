@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="ISO-8859-1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;400&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilo/estilos.css">
+</head>
+<body>
+<header>
+    <h1>Formulario de Contacto</h1>
+</header>
+<nav>
+    <a href="index.html">Volver a index</a>    
+</nav>
+<main style="width: auto; border:15px solid  rgb(170, 100, 75);background-color: rgba(230, 209, 165, 0.993);">
+    <form action="mail.php" method="POST">
+        <label>Nombre :<input placeholder="Nombre"id="name" type="text"></label>
+        
+
+        <label>Apellido :<input placeholder="Apellido"id="name" type="text"></label>
+
+        <label>Altura :<input value="40"type="number" name="altura" id="" min="40" max="250"> </label>
+    
+        
+        <label>Fecha :</label>
+        <input type="date" name="fecha" id="">
+
+        <label>Email :<input placeholder="info@dominio.com" type="email" name="email" id="">  </label>
+         <br>
+        
+        
+        
+
+        <label for="">País</label>
+        <select name="pais" id="">
+            <option value=".bo">Bolivia</option>
+            <option value=".ar">Argentina</option>
+            <option value=".ve">Venezuela</option>
+
+        </select>
+        <label for="">Sexo :</label>
+        Femenino<input type="radio" name="sexo">
+        Masculino<input type="radio"name="sexo">
+        Otro: <input type="radio"name= "sexo">
+
+        <label for="">Comentarios :</label>
+        <textarea name="" id="" cols="60" rows="8"maxlength= "140"></textarea>
+
+        <label for="">Terminos y condiciones</label>
+        <input type="checkbox" name="" id="">
+       
+        
+        <input type="submit" value="Enviar">
+       
+        
+        
+        
+    </form>
+    
+    
+    </main>
+</body>
+</html>

@@ -1,0 +1,29 @@
+header{
+    height: 40px;
+    background-color:#f1d196;
+}
+
+h1 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+h2 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+h3 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+p   {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: large;
+    background-color: #f0c6a4ed;
+    }
+
+
+
+   
